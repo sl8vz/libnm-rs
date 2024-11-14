@@ -21,14 +21,17 @@ libc = '0.2'
 [dependencies.glib]
 package = 'glib-sys'
 git = 'https://github.com/gtk-rs/gtk-rs-core'
+rev = "ce523803aee59512d12af62d1ccbb281dceac880"
 
 [dependencies.gio]
 package = 'gio-sys'
 git = 'https://github.com/gtk-rs/gtk-rs-core'
+rev = "ce523803aee59512d12af62d1ccbb281dceac880"
 
 [dependencies.gobject]
 package = 'gobject-sys'
 git = 'https://github.com/gtk-rs/gtk-rs-core'
+rev = "ce523803aee59512d12af62d1ccbb281dceac880"
 
 [build-dependencies]
 system-deps = '1.3'
